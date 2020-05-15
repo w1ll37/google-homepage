@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <style>
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Store</a></li>
-            <li><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-            <li><a href="#"><img src="./images/google-apps.png" alt="Box"></a></li>
-            <li><a href="#"><img src="./images/google-account.png" alt="Icon"></a></li>
-        </ul>
+        <div id="header-container">
+            <div id="left-header">
+                <a href="#" id="about">About</a>
+                <a href="#" id="store">Store</a>
+            </div>
+            <div id="right-header">
+                <a href="#" id="gmail">Gmail</a>
+                <a href="#" id="images">Images</a>
+                <a href="#"><a href="#"><img src="./images/google-apps.png" alt="Box" id="google-apps"></a></a>
+                <a href="#"><a href="#"><img src="./images/google-account.png" alt="Icon" id="google-account"></a></a>
+            </div>
+        </div>
     </header>
-    <img src="./images/google.jpg" alt="Google">
+    <img id="google" src="./images/google.jpg" alt="Google">
     <form action="search">
-        <input type="text">
-        <div class="search-buttons">
-            <button type="submit">Google Search</button>
-            <button type="submit">I'm Feeling Lucky</button>
+        <input type="text" id="search-bar">
+        <div id="search-buttons">
+            <button type="submit" class="flex-item">Google Search</button>
+            <button type="submit" class="flex-item">I'm Feeling Lucky</button>
         </div>
     </form>
 </body>
