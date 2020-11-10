@@ -1,59 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 a {
     text-decoration: none;
     color: rgb(50, 50, 50);
 }
-
-/* header */
-
+/* Header */
 #header-container {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-top: 1%;
 }
-
 #about {
     margin-left: 30px;
     margin-right: 30px;
     position: relative;
     bottom: 30px;
 }
-
 #store {
     position: relative;
     bottom: 30px;
 }
-
 #gmail {
     margin-right: 30px;
     position: relative;
     bottom: 30px;
 }
-
 #images {
     margin-right: 30px;
     position: relative;
     bottom: 30px;
 }
-
 #google-apps {
     margin-right: 30px;
     width: 50px;
 }
-
 #google-account {
     margin-right: 30px;
     width: 50px;
 }
-
-/* main content */
-
+/* Main Content */
 #google {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
 }
-
 #search-bar {
     display: block;
     margin-left: auto;
@@ -66,12 +60,10 @@ a {
     border-radius: 20px;
     text-indent: 10px;
 }
-
 #search-buttons {
     display: flex;
     justify-content: center;
 }
-
 .flex-item {
     display: block;
     margin-top: 20px;
@@ -86,9 +78,10 @@ a {
     background-color: rgb(240, 240, 240);
     color: rgb(100, 100, 100);
 }
-
-/* footer */
-
+/* Footer */
+#footer-container {
+    margin-top: 5%;
+}
 #top-footer {
     display: block;
     background-color: rgb(240, 240, 240);
@@ -97,9 +90,7 @@ a {
     border-color: rgb(200, 200, 200);
     border-width: 1px;
     text-indent: 16px;
-    margin-top: 380px;
 }
-
 #bottom-footer {
     display: flex;
     justify-content: space-between;
@@ -110,9 +101,16 @@ a {
     padding-top: 16px;
     padding-bottom: 16px;
 }
-
 .footer-element {
     margin-left: 16px;
     margin-right: 16px;
     color:rgb(120, 120, 120);
+}
+@media (min-height: 600px) {
+    /* Footer */
+    #footer-container {
+        position: absolute;
+        width: 100vw;
+        bottom: 0;
+    }
 }
