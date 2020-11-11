@@ -96,10 +96,12 @@ a {
     }
     /* Main Content */
     #google {
+        width: 40vw;
         margin-top: 50px;
     }
     #search_bar {
         width: 70vw;
+        height: 30px;
     }
     .search_button {
         width: 100px;
