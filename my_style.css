@@ -38,6 +38,7 @@ a {
     border-style: solid;
     border-color: rgb(230, 230, 230);
     border-radius: 20px;
+    outline-width: 0;
 }
 #search_buttons {
     display: flex;
